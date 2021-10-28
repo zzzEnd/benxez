@@ -1,0 +1,7 @@
+---Made By zzz
+local Player = game.Players.LocalPlayer
+ 
+Player.Chatted:connect(function(cht)
+	if cht:match(":benx .") then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/zzzEnd/Scripts/main/Permanent%20Animation"))()
+wait(13)
